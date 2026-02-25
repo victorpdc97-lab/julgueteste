@@ -14,10 +14,12 @@ import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import StickyCta from "@/components/StickyCta";
+import MouseGlow from "@/components/ui/MouseGlow";
 
 export default function Home() {
   return (
     <>
+      <MouseGlow />
       <ScrollProgress />
       <Navbar />
       <main>

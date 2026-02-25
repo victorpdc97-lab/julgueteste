@@ -2,15 +2,26 @@
 
 import { useEffect, useRef, ReactNode } from "react";
 
+type AnimationType = "up" | "left" | "right" | "scale";
+
 interface RevealSectionProps {
   children: ReactNode;
   delay?: number;
+  animation?: AnimationType;
   className?: string;
 }
+
+const animationClasses: Record<AnimationType, string> = {
+  up: "reveal",
+  left: "reveal-left",
+  right: "reveal-right",
+  scale: "reveal-scale",
+};
 
 export default function RevealSection({
   children,
   delay = 0,
+  animation = "up",
   className = "",
 }: RevealSectionProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -26,7 +37,7 @@ export default function RevealSection({
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.1 }
     );
 
     observer.observe(el);
@@ -34,7 +45,7 @@ export default function RevealSection({
   }, [delay]);
 
   return (
-    <div ref={ref} className={`reveal ${className}`}>
+    <div ref={ref} className={`${animationClasses[animation]} ${className}`}>
       {children}
     </div>
   );

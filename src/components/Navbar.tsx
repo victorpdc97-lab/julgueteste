@@ -30,11 +30,12 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-        <a
-          href="#"
-          className="font-[family-name:var(--font-heading)] text-sm font-semibold tracking-wider uppercase text-cream hover:text-accent transition-colors duration-300"
-        >
-          JLPC
+        <a href="#" className="relative group">
+          <img
+            src="/img/heitor-paradise-logo.png"
+            alt="Heitor Paradise"
+            className="h-8 w-auto signature-draw"
+          />
         </a>
 
         {/* Desktop Links */}

@@ -32,8 +32,8 @@ export default function Home() {
         <Results />
         <Testimonials />
         <Offer />
-        <Faq />
         <FinalCta />
+        <Faq />
       </main>
       <Footer />
       <WhatsAppButton />

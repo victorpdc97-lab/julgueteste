@@ -202,6 +202,26 @@ body::after {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ===== SIGNATURE DRAW ===== */
+.signature-draw {
+  clip-path: inset(0 100% 0 0);
+  animation: signature-reveal 1.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s forwards;
+}
+
+@keyframes signature-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    clip-path: inset(0 0% 0 0);
+    opacity: 1;
+  }
+}
+
 /* ===== GLASSMORPHISM ===== */
 .glass {
   background: rgba(255, 255, 255, 0.03);

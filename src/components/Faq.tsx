@@ -5,34 +5,29 @@ import RevealSection from "./ui/RevealSection";
 
 const FAQS = [
   {
-    question: "O guia serve para qualquer biotipo?",
+    question: "Qual o valor do guia \"Julgue o Livro Pela Capa\"?",
     answer:
-      "Sim! Os primeiros 4 módulos são dedicados exclusivamente a tipos corporais diferentes: gordinhos, magros, altos e baixos. Cada um com dicas específicas.",
+      "O investimento é de R$49,90 (pagamento único) via Pix ou parcelado em até 3x de R$16,63 no cartão de crédito.",
   },
   {
-    question: "Preciso gastar muito com roupas novas?",
+    question: "Achei barato, o material é de qualidade?",
     answer:
-      "Não. O módulo de Trocas Inteligentes ensina como substituir peças estrategicamente. Muitos clientes gastaram menos de R$400 e transformaram o visual.",
+      "Diferente de gurus e falsos coachs que estão inundando o mercado com informações \"copia e cola\", sem embasamento, sem estudos, sem testes na prática, eu decidi disponibilizar esse livro compactado, com tudo que estudei ao longo de 10 anos relacionados a moda masculina e não, não virei um infoprodutor, simplesmente decidi aumentar o nível de consciência dos clientes Paradise e dos milhares de homens modernos que acompanham nossas páginas. Os custos e horas investidas para desenvolver esse material foram altíssimos e por isso não existiria um valor exato se a intenção fosse visar o lucro. Inclusive, em primeiro momento, seria totalmente gratuito, mas um amigo/cliente me deu o toque de que as pessoas não valorizam o que é de graça, com isso acabariam não lendo, o contrário acontece quando pagamos por algo!",
   },
   {
-    question: "O acesso é imediato?",
+    question: "Posso comprar o guia para o meu filho, marido ou namorado?",
     answer:
-      "Você receberá o seu livro físico via Correios, com frete grátis.",
+      "Deve! Apesar de ser um guia masculino, alguns homens se recusam por achar que cuidados e vaidades masculinas são algo negativo. Você irá fazer uma excelente atitude em presentear quem você ama. Lembre-se de preencher o e-mail dele no ato da compra para que ele receba todas as instruções de acesso após a confirmação do pagamento.",
   },
   {
-    question: "Tem garantia?",
+    question: "Posso devolver?",
     answer:
-      "Sim, 7 dias de garantia incondicional. Se não gostar, devolvemos 100% do valor. Sem perguntas.",
+      "A sua devolução é garantida por lei dentro de 7 dias após a compra, para qualquer produto adquirido em território nacional. No caso deste livro, preferi não criar nenhum mecanismo de avanço da jornada, pois confio tanto na qualidade do material que se, por qualquer motivo, você não gostar, pode solicitar a devolução do seu $$$, sem perder o acesso ao guia. Sei também que pessoas mal intencionadas irão aproveitar deste recurso, mas não tem problema, sigo no caminho de ser abundante na vida de todos, inclusive das pessoas ruins!",
   },
   {
-    question: "É só um PDF?",
+    question: "Como terei acesso ao guia?",
     answer:
-      "É um guia digital de 85 páginas com conteúdo prático e visual. Material condensado de 10 anos de consultoria, não um ebook genérico.",
-  },
-  {
-    question: "Serve para quem já se veste bem?",
-    answer:
-      'Como disse o Daniel (advogado, 31 anos): "Percebi que me vestia certo pra 2015." O guia atualiza seu repertório com trocas inteligentes.',
+      "Você receberá o seu livro via correios com frete grátis.",
   },
 ];
 
@@ -77,7 +72,7 @@ function FaqItem({ faq, index }: { faq: (typeof FAQS)[0]; index: number }) {
       </button>
       <div
         className={`overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-          open ? "max-h-40" : "max-h-0"
+          open ? "max-h-96" : "max-h-0"
         }`}
       >
         <p className="text-gray-light text-sm leading-relaxed px-5 pb-5 pl-14">

@@ -54,7 +54,7 @@ export default function Offer() {
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   {[
                     { icon: "01-10", label: "10 módulos de conteúdo prático" },
-                    { icon: "star", label: "Material dos consultores Paradise" },
+                    { icon: "star", label: "Material usado na formação dos consultores Paradise" },
                     { icon: "zap", label: "Acesso digital imediato" },
                     { icon: "shield", label: "Garantia incondicional de 7 dias" },
                   ].map((feat) => (

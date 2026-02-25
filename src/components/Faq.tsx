@@ -17,7 +17,7 @@ const FAQS = [
   {
     question: "O acesso é imediato?",
     answer:
-      "Sim. Após a confirmação do pagamento, você recebe o acesso digital imediato por email. No Pix, é instantâneo.",
+      "Você receberá o seu livro físico via Correios, com frete grátis.",
   },
   {
     question: "Tem garantia?",

@@ -1,5 +1,5 @@
 const ITEMS = [
-  "Material dos consultores Paradise",
+  "Material usado na formação dos consultores Paradise",
   "10 anos de experiência",
   "85 páginas",
   "7 estilos universais",

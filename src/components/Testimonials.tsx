@@ -14,14 +14,14 @@ const TESTIMONIALS = [
   {
     name: "Marcos L.",
     role: "Dev, 28",
-    text: "Finalmente alguém que fala sem rodeio. O capítulo 4 de guarda-roupa cápsula me fez jogar fora 30 peças e comprar 8 por R$620. Resultado? Mais elogios em 3 semanas do que em 28 anos de vida.",
+    text: "Finalmente alguém que fala sem rodeio. O capítulo 7  de guarda-roupa cápsula me fez jogar fora 30 peças e comprar 8 por R$620. Resultado? Mais elogios em 3 semanas do que em 28 anos de vida.",
     highlight: "3 semanas",
     investment: "R$620",
   },
   {
     name: "Daniel F.",
     role: "Advogado, 31",
-    text: "Eu sou advogado e sempre me vesti bem. Depois da página 47 percebi que me vestia certo pra 2015. Apliquei 3 trocas inteligentes em 1 semana e fui promovido 2 meses depois. Gastei R$0 a mais.",
+    text: "Eu sou advogado e sempre me vesti bem. Depois da página 47 percebi que me vestia certo pra 2015. Apliquei 3 trocas inteligentes em 1 semana e fui promovido 2 meses depois. Sem gastar nada.",
     highlight: "Promovido",
     investment: "R$0",
   },

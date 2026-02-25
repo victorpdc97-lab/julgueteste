@@ -4,16 +4,16 @@ import { useState } from "react";
 import RevealSection from "./ui/RevealSection";
 
 const MODULES = [
-  { num: "01", title: "Gordinhos — tudo sobre", category: "Biotipo" },
-  { num: "02", title: "Magros — tudo sobre", category: "Biotipo" },
-  { num: "03", title: "Altos — tudo sobre", category: "Biotipo" },
-  { num: "04", title: "Baixos — tudo sobre", category: "Biotipo" },
-  { num: "05", title: "Blazer, sociais, calças e bermudas", category: "Peças" },
-  { num: "06", title: "Camisetas, regatas e gravatas", category: "Peças" },
-  { num: "07", title: "Calçados, chinelos e acessórios", category: "Peças" },
-  { num: "08", title: "7 estilos universais", category: "Estilo" },
-  { num: "09", title: "Trocas inteligentes", category: "Estilo" },
-  { num: "10", title: "Como montar um armário cápsula", category: "Estilo" },
+  { num: "01", title: "7 estilos universais", category: "Estilo" },
+  { num: "02", title: "Combinação de cores", category: "Estilo" },
+  { num: "03", title: "Homens gordinhos", category: "Biotipo" },
+  { num: "04", title: "Homens magros", category: "Biotipo" },
+  { num: "05", title: "Homens altos", category: "Biotipo" },
+  { num: "06", title: "Homens baixos", category: "Biotipo" },
+  { num: "07", title: "Armário cápsula versátil", category: "Versatilidade" },
+  { num: "08", title: "Peça por peça", category: "Peças" },
+  { num: "09", title: "Acessórios", category: "Peças" },
+  { num: "10", title: "Trocas inteligentes", category: "Estilo" },
 ];
 
 export default function BookSection() {

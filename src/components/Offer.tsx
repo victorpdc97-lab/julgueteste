@@ -55,7 +55,7 @@ export default function Offer() {
                   {[
                     { icon: "01-10", label: "10 módulos de conteúdo prático" },
                     { icon: "star", label: "Material usado na formação dos consultores Paradise" },
-                    { icon: "zap", label: "Acesso digital imediato" },
+                    { icon: "zap", label: "Livro físico com entrega grátis" },
                     { icon: "shield", label: "Garantia incondicional de 7 dias" },
                   ].map((feat) => (
                     <div

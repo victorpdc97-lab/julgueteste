@@ -27,7 +27,7 @@ export default function AuthorStrip() {
             <RevealSection delay={150} className="flex-1">
               <p className="text-foreground leading-relaxed text-center md:text-left">
                 Sei que os seus pais te ensinaram a n&atilde;o julgar um livro pela capa!
-                Minha inten&ccedil;&atilde;o n&atilde;o &eacute; provocar uma briga familiar...
+                Minha inten&ccedil;&atilde;o n&atilde;o &eacute; provocar uma briga familiar.
                 Vamos l&aacute;, que vou explicar melhor...
               </p>
               <p className="text-foreground leading-relaxed mt-3 text-center md:text-left">
